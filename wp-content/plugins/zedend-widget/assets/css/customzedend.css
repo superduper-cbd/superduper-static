@@ -1,0 +1,315 @@
+
+
+    .features-title ul,
+    .features ul{
+        list-style: none;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    /* custom style */
+
+    .features-title ul.list-group,
+    .features ul.list-group {
+      margin-left: 0;
+    }
+    .features-title .list-group-item,
+    .features .list-group-item {
+      padding: 12px;
+    }
+    .features-title .checked,
+    .features .checked {
+      color: orange;
+    }   
+    .features img {
+      max-height: 120px;
+      max-width: 150px;
+    }
+    .features-title .h-3 {
+      min-height: 120px;
+      display: block;
+    }
+    .features-title li.list-group-item,
+    .features li.list-group-item{
+      min-height: 80px;
+      word-break: break-word;
+    }
+
+    /* zedend board gallery style start  */
+
+.main-box {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    display: grid;
+}
+img.zedend_board_gallery_img {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+img.zedend_board_gallery_img:hover {
+    opacity: 0.2;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.border-around-1 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-top: 5rem;
+    margin-left: 16rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.border-around-2 {
+    width: 500px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: relative;
+    margin-left: 65rem;
+    margin-top: -49.9rem;
+}
+.border-around-3 {
+    width: 500px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: relative;
+    margin-left: 114rem;
+    margin-top: -50.2rem;
+}
+.border-around-4 {
+    position: relative;
+    margin-left: 40.5rem;
+    margin-top: -25.5rem;
+    width: 500px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.border-around-5 {
+    position: relative;
+    margin-left: 89.7rem;
+    margin-top: -50.4rem;
+    width: 500px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.border-around-6 {
+    position: relative;
+    margin-left: 16.3rem;
+    margin-top: -26rem;
+    width: 500px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.border-around-7{
+    position: relative;
+    margin-left: 65.4rem;
+    margin-top: -50.2rem;
+    width: 500px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.border-around-8 {
+    position: relative;
+    margin-left: 114rem;
+    margin-top: -50.3rem;
+    width: 500px;
+    height: 500px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+
+@media only screen and ( max-width: 968px ) {
+  .main-box {
+        width: 700px;
+        height: 100%;
+        max-width: 900px;
+        max-height: 100%;
+        position: relative;
+  }
+  img.zedend_board_gallery_img {
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      width: 270px;
+      height: 270px;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+  }
+  .border-around-1 {
+      position: relative;
+      margin-left: 5rem;
+      margin-top: 3.1rem;
+      width: 300px;
+      height: 300px;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  .border-around-2 {
+      width: 300px;
+      height: 300px;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      position: relative;
+      margin-left: 23.4rem;
+      margin-top: -19.7rem;
+  }
+  .border-around-3 {
+      width: 300px;
+      height: 300px;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      position: relative;
+      margin-left: 14.3rem;
+      margin-top: -10.7rem;
+  }
+  .border-around-4 {
+      position: relative;
+      margin-left: 5rem;
+      margin-top: -10.3rem;
+      width: 300px;
+      height: 300px;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  .border-around-5 {
+      position: relative;
+      margin-left: 23rem;
+      margin-top: -18.9rem;
+      width: 300px;
+      height: 300px;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  .border-around-6 {
+      position: relative;
+      margin-left: 14.3rem;
+      margin-top: -9.5rem;
+      width: 300px;
+      height: 300px;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  .border-around-7{
+      position: relative;
+      margin-left: 5rem;
+      margin-top: -9.9rem;
+      width: 300px;
+      height: 300px;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+  .border-around-8 {
+      position: relative;
+      margin-left: 23rem;
+      margin-top: -18.9rem;
+      width: 300px;
+      height: 300px;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+}
+
+
+@media only screen and ( max-width: 425px ) {
+    .main-box {
+        width: 320px;
+        height: 500px;
+        max-width: 350px;
+        max-height: 600px;
+        position: relative;
+    }
+    img.zedend_board_gallery_img  {
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        top: 7%;
+        left: 7%;
+    }
+    .border-around-1 {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        margin-left: 3rem;
+        margin-top: 3.1rem;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    .border-around-2 {
+        width: 150px;
+        height: 150px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        position: relative;
+        margin-left: 12rem;
+        margin-top: -9.3rem;
+    }
+    .border-around-3 {
+        width: 150px;
+        height: 150px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        position: relative;
+        margin-left: 7.5rem;
+        margin-top: -4.9rem;
+    }
+    .border-around-4 {
+        position: relative;
+        margin-left: 3rem;
+        margin-top: -5.3rem;
+        width: 150px;
+        height: 150px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    .border-around-5 {
+        position: relative;
+        margin-left: 12rem;
+        margin-top: -9.3rem;
+        width: 150px;
+        height: 150px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    .border-around-6 {
+        position: relative;
+        margin-left: 7.4rem;
+        margin-top: -4.8rem;
+        width: 150px;
+        height: 150px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    .border-around-7{
+        position: relative;
+        margin-left: 2.9rem;
+        margin-top: -5rem;
+        width: 150px;
+        height: 150px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    .border-around-8 {
+        position: relative;
+        margin-left: 12rem;
+        margin-top: -9.8rem;
+        width: 150px;
+        height: 150px;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+}
+
+  /* zedend board gallery style end  */
